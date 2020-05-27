@@ -109,8 +109,8 @@ body {
   padding: 0.5em;
 }
 
-.scroll-down.btn {
-  background-color: none;
+.scroll-down .btn {
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .scroll-down.btn:focus {
