@@ -88,8 +88,6 @@ body {
   background-image: url("../img/hero-detail.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: right center;
-
   color: var(--color-light);
 }
 
@@ -109,6 +107,15 @@ body {
   color: var(--color-light);
   font-size: 1.5em;
   padding: 0.5em;
+}
+
+.scroll-down.btn {
+  background-color: none;
+}
+
+.scroll-down.btn:focus {
+  outline: none;
+  box-shadow: none;
 }
 
 .btn-scroll-down {
@@ -241,7 +248,7 @@ ul.timeline > li {
 }
 ul.timeline > li:before {
     content: ' ';
-    background: white;
+    background: var(--color-light);
     display: inline-block;
     position: absolute;
     border-radius: 50%;
@@ -266,7 +273,7 @@ ul.timeline > li:before {
 }
 
 .company-name, .company-date {
-  color: var(--color-detail2);
+  color: grey;
   text-transform: uppercase;
 }
 
