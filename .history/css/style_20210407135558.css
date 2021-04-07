@@ -258,6 +258,12 @@ ul.timeline > li:before {
   text-transform: uppercase;
 }
 
+.category {
+  /* display: flex; */
+  padding: 0;
+  margin: 10px 0 0 0;
+  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.34);
+} 
 .category-title {
   margin: 10px 0 0 0;
   font-weight: var(--bold);

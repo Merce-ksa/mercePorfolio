@@ -258,17 +258,19 @@ ul.timeline > li:before {
   text-transform: uppercase;
 }
 
-.category-title {
+.category {
+  display: flex;
+  padding: 0;
   margin: 10px 0 0 0;
   font-weight: var(--bold);
 } 
 
 .stars{
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .stars-disabled{
-  font-size: 20px;
+  font-size: 18px;
   color: rgb(189, 189, 189);
 }
 

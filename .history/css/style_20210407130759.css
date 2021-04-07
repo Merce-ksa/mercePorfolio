@@ -180,6 +180,21 @@ body {
   width: 100%;
 }
 
+/* .progress {
+  padding: 0;
+  margin: 0;
+}
+
+.category {
+  padding: 0;
+  margin: 10px 0 0 0;
+  font-weight: var(--bold);
+} */
+
+.progress{
+  color: red;
+}
+
 .btn-linkedin {
   border-radius: 20px;
   color: var(--color-light);
@@ -256,20 +271,6 @@ ul.timeline > li:before {
 .company-name, .company-date {
   color: grey;
   text-transform: uppercase;
-}
-
-.category-title {
-  margin: 10px 0 0 0;
-  font-weight: var(--bold);
-} 
-
-.stars{
-  font-size: 20px;
-}
-
-.stars-disabled{
-  font-size: 20px;
-  color: rgb(189, 189, 189);
 }
 
 .container-works{

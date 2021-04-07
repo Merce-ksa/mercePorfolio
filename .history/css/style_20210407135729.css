@@ -258,6 +258,9 @@ ul.timeline > li:before {
   text-transform: uppercase;
 }
 
+.category {
+  background-color: rgba(0, 0, 0, 0.1);
+} 
 .category-title {
   margin: 10px 0 0 0;
   font-weight: var(--bold);

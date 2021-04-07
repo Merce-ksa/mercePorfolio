@@ -258,18 +258,19 @@ ul.timeline > li:before {
   text-transform: uppercase;
 }
 
-.category-title {
-  margin: 10px 0 0 0;
-  font-weight: var(--bold);
-} 
-
-.stars{
-  font-size: 20px;
+/* .progress {
+  padding: 0;
+  margin: 0;
 }
 
-.stars-disabled{
-  font-size: 20px;
-  color: rgb(189, 189, 189);
+.category {
+  padding: 0;
+  margin: 10px 0 0 0;
+  font-weight: var(--bold);
+} */
+
+.progress{
+  color: red;
 }
 
 .container-works{

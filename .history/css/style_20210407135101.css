@@ -258,6 +258,16 @@ ul.timeline > li:before {
   text-transform: uppercase;
 }
 
+.tools-list {
+  border: 1px solid coral
+}
+
+.category {
+  /* display: flex; */
+  padding: 0;
+  margin: 10px 0 0 0;
+  font-weight: var(--bold);
+} 
 .category-title {
   margin: 10px 0 0 0;
   font-weight: var(--bold);
