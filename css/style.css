@@ -8,6 +8,7 @@
   --color-dark: #000000;
 
   --radius: 15px;
+  --radius-icon: 5px;
 
   --bold: 700;
 }
@@ -258,18 +259,30 @@ ul.timeline > li:before {
 }
 
 .category-title {
-  margin: 10px 0 0 0;
+  margin: 0 0 0 10px;
   font-weight: var(--bold);
 } 
 
-.stars{
+.tools {
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+.tool-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: var(--radius-icon);
+}
+
+/* .stars{
   font-size: 20px;
 }
 
 .stars-disabled{
   font-size: 20px;
   color: rgb(189, 189, 189);
-}
+} */
 
 .container-works{
   position: relative;
