@@ -110,6 +110,13 @@ body {
   padding: 0.5em;
 }
 
+.social-media a .cv{
+  width: 40px;
+  background: none;
+  filter: invert(100%) grayscale(100%);
+  
+}
+
 .scroll-down .btn {
   background-color: rgba(0, 0, 0, 0.1);
 }
